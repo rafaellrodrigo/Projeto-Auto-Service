@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
+
+header {
+    display: flex;
+    background-color: rgb(88, 88, 88);
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 70px;
+    border-bottom: 1px solid #fffefe;
+}
+
+.div-section{
+    margin-bottom: 50px;
+}
+
+.icon-logo {
+    width: 100px;
+}
+
+.img-logo {
+    width: 500px;
+    height: 400px;
+    margin-left: 120px;
+    margin-top: 100px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+div {
+    display: inline-block;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100px;
+    color: #17233D;
+    margin-left: 50px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #17233D;
+    line-height: 10px;
+    margin-left: 20px;
+}
+
+p {
+    color:  #17233D;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+.link-header {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #ffffff;
+    margin-right: 32px;
+    cursor: pointer;
+    margin-left: 47px;
+}
+
+.btn-cadastrar {
+    background: #d4d4d4;
+    color: rgb(7, 7, 7);
+    border-radius: 20px;
+    width: 124px;
+    height: 40px;
+    border: solid 2px #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.button-orçamento {
+    background: #d4d4d4;
+    color: rgb(7, 7, 7);
+    border-radius: 20px;
+    width: 124px;
+    height: 40px;
+    border: solid 2px #000000;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 150px;
+}
+
+.btn-cadastrar:hover{
+    background-color: #7F7FD5;
+    transition: 0.5s;
+    color: white;
+}
+
+.button-orçamento:hover{
+    background-color:  rgb(110, 110, 110);
+    transition: 0.5s;
+    color: white;
+}
